@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Editor from './components/Editor'
+import Previewer from './components/Previewer'
 import './index.css';
 
-ReactDOM.render(<Editor />,document.getElementById('root'));
+ReactDOM.render(<Previewer />,document.getElementById('root'));
