@@ -1,0 +1,23 @@
+/*
+<label for="editor">Welcome to Markdown Previewer</label>
+<textarea id="editor" name="editor" rows="5" cols="25">
+    #The best way to learn is to start **Don't let bad thoughts intimidate you.** *Be free to create* ##This previewer helps you write beautiful and useful Markdown 1. Write clean information 2. Highlight according to your needs 3. Use the previewer to see the results
+</textarea>
+*/
+
+body{
+    background-color: rgb(166, 220, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+#editor{
+    display: flex;
+    flex-flow: column;
+    width: 70%;
+    height: auto;
+    margin: auto;
+    border: 5px solid rgb(0, 0, 0);
+    color: inherit;
+    background-color: rgb(255, 255, 255);
+}
