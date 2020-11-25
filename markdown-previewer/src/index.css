@@ -1,20 +1,21 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
 
-body{
-    background-color: rgb(166, 220, 255);
+
+body {
+    background-color: rgb(187, 238, 222);
     color: rgb(0, 0, 0);
     text-align: center;
-    /*font-family: 'Philosopher', sans-serif;*/
+    font-family: 'Philosopher', sans-serif;
 }
 
-#editor{
+#editor {
     display: flex;
     flex-flow: column;
     width: 70%;
     height: auto;
     margin: auto auto 2px auto;
     border-width: 5px;
-    border-style:solid;
+    border-style: solid;
     border-radius: 15px 15px 15px 15px;
     padding: 5px 5px 0 5px;
     border-color: rgb(0, 0, 0);
@@ -23,7 +24,19 @@ body{
     font-size: 15px;
 }
 
-#content{
+#previewer {
     color: rgb(0, 0, 0);
-    font-size: 25px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    font-size: 15px;
+    width: 55%;
+    height: auto;
+    border: solid 1px rgb(0, 0, 0);
+    text-align: left;
+    padding: 10px 10px 10px 10px;
+}
+
+
+hr {
+    color: rgb(255, 255, 255);
 }

@@ -8,10 +8,12 @@ class Previewer extends Component {
     }
 
     render() {
-        return (<div>
+        return (<div id="previewer">
             <div id="content"></div>
             <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-            <div dangerouslySetInnerHTML={{__html: marked("# Welcome to Markdown Previewer\n\n## Here you can write beautiful markdown and preview the results\n\n Brief examples:\n\n1. `H1: # H1`\n\n2. `H2: ## H2`\n\n3. `<code>code</code>`\n\n4. Inline code `<addr>`\n\n**Need help with syntaxe ? access:** [Markdown Guide!](https://www.markdownguide.org/)")}} />
+            <div dangerouslySetInnerHTML={{
+                    __html: marked("# Hello, here is your HTML Previewer\n\n<hr></hr>\n\n## Here you can write beautiful markdown and preview the results\n\nUseful ways of showing information using markdown:\n\n+ Show code examples in instructions with tags code <code></code> `<code></code>` or inside ``.\n\n+ Use blockquotes with content inside `<blockquote></bloquote>` tags.\n\n+ If you like creating images or use emoticons you also can use cute emoticons ʕ•́ᴥ•̀ʔっ\n\n+ ... and images <img src='https://fsymbols.com/thumbs/54.png'  width='45' height='35' />\n\n**Need help with syntaxe ? access:** [Markdown Guide!](https://www.markdownguide.org/)")
+                }}/>
         </div>);
     }
 }
