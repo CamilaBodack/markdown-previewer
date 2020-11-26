@@ -1,40 +1,73 @@
 @import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
 
-
 body {
-    background-color: rgb(187, 238, 222);
+    background-color: rgba(165, 246, 161, 0.81);
     color: rgb(0, 0, 0);
     text-align: center;
     font-family: 'Philosopher', sans-serif;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.markdown-container {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    border-width: 1px;
+    border-radius: 10px 10px 10px 10px;
+    border-color: rgb(0, 0, 0);
+    color: inherit;
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    padding: 10px 10px 10px 10px;
 }
 
 #editor {
-    width: 70%;
+    display: flex;
+    flex-flow: row;
+    width: 98%;
     height: auto;
-    margin: auto auto 2px auto;
-    border-width: 5px;
+    margin: 10px 10px 10px 10px;
     border-style: solid;
-    border-radius: 15px 15px 15px 15px;
-    padding: 5px 5px 0 5px;
-    border-color: rgb(0, 0, 0);
+    border-radius: 10px 10px 10px 10px;
+    padding: auto 0 auto 25px;
+    border: solid 2px rgb(0, 0, 0);
     color: inherit;
     background-color: rgb(255, 255, 255);
     font-size: 15px;
 }
 
 #previewer {
+    display: flex;
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
-    margin: 25vh auto auto auto;
+    margin: 10px 10px 10px 10px;
     font-size: 15px;
-    width: 55%;
-    height: 100%;
-    border: solid 1px rgb(0, 0, 0);
+    width: 95%;
+    height: auto;
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 10px 10px 10px 10px;
     text-align: left;
     padding: 10px 10px 10px 10px;
 }
 
-
 hr {
     color: rgb(255, 255, 255);
+}
+
+footer {
+    display: flex;
+    flex-flow: row;
+    text-align: center;
+    align-items: center;
+    padding: 2px 39vw 2px 39vw;
+    height: 6vh;
+    margin: 5vh 1vw 1vh 1vw;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px 5px 5px 5px;
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
 }
