@@ -9,4 +9,4 @@ Tool to help markdown creation in desktop and mobile devices
 
 ### Available
 
-Access: [Martini Markdown Previewer!](https://markdown-previewer-pi.vercel.app/)
+Access: [Martini Markdown Previewer!](https://martini-markdown-previewer.vercel.app/)
