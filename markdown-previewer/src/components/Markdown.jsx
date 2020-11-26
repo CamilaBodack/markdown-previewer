@@ -8,6 +8,10 @@ let firstRender = "# Preview:\n\n<hr></hr>\n\n## Here you can write beautiful ma
 class Markdown extends Component {
     constructor(props) {
         super(props);
+
+        this.state = {
+            value: firstRender
+        }
     }
 
     render() {
@@ -20,7 +24,7 @@ class Markdown extends Component {
             name = "editor"
             rows = "10"
             cols = "60"
-            form = "previewer"></textarea><form id = "previewer">
+            form = "previewer" input type="text" value={this.state.value}></textarea><form id = "previewer">
             <div dangerouslySetInnerHTML = {
                 {
                     __html: marked(firstRender)
