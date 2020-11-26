@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import marked from 'marked'
 
 
-let firstRender = "# Preview:\n\n<hr></hr>\n\n## Here you can write beautiful markdown and preview the results\n\n### Useful ways of showing information using markdown:\n\n+ Show code examples in instructions with tags code\n\n         <pre><code>inside code tags</code></pre>\n\n<code>This is how a code is showed inside code tags</code>\n\n `npm install -g how is to be inside backticks`.\n\n+ Use blockquotes with content inside.\n\n  > Hello, i'm new blockquote :).\n\n+ If you like creating images or use emoticons you also can use cute emoticons ʕ•́ᴥ•̀ʔっ\n\n ![Blue Martini](https://icing.ca/wp-content/uploads/2016/04/icon-martini.png)\n\n**Need help with syntaxe ? access:** [Markdown Guide!](https://www.markdownguide.org/)"
+let firstRender = "# Preview:\n\n<hr></hr>\n\n## Here you can write beautiful markdown and see the results\n\n### Useful ways of showing information using markdown:\n\n+ Show code examples in instructions with code tags or inside backticks.\n\n         <pre><code><like this one></code></pre>\n\n<code>This is how code is showed inside code tags</code>\n\n `npm install -g how-is-to-be-inside-backticks`.\n\n+ Use blockquotes with content inside.\n\n  > Hello, i'm new blockquote :).\n\n+ It's possible to add cute figures ʕ•́ᴥ•̀ʔっ\n\n ![Blue Martini](https://icing.ca/wp-content/uploads/2016/04/icon-martini.png) ...also add images\n\n**Need help with syntaxe ? access:** [Markdown Guide!](https://www.markdownguide.org/)"
 
 
 class Markdown extends Component {
@@ -37,7 +37,7 @@ class Markdown extends Component {
                     __html: marked(this.state.value)
                 }
             }/></form ></div>
-            <footer>[ Created by Camila Bodack 2020 ]</footer>
+            <footer><p>[ Created by Camila Bodack 2020 ]</p></footer>
             </div>);
         }
     }

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
 
 body {
-    background-color: rgb(173, 222, 231);
+    background-color: rgba(70, 197, 205, 0.41);
     color: rgb(0, 0, 0);
     text-align: center;
     font-family: 'Philosopher', sans-serif;
@@ -13,57 +13,53 @@ body {
 
 .markdown-container {
     display: flex;
+    flex-flow: row;
     margin: auto;
     width: 100%;
     height: auto;
-    border-width: 1px;
-    border-radius: 10px 10px 10px 10px;
-    border-color: rgb(0, 0, 0);
-    color: inherit;
-    background-color: rgb(255, 255, 255);
-    font-size: 15px;
+    padding: auto;
 }
 
 .editor {
     display: flex;
     flex-flow: row;
-    width: 100%;
+    width: 94%;
     height: auto;
-    margin: auto;
+    margin: auto 3vw auto 3vw;
+    padding: auto;
 }
 
 #editor {
     display: flex;
     flex-flow: row;
-    width: auto;
+    width: 50%;
     height: auto;
-    margin: 10px 10px 10px 10px;
-    border-style: solid;
+    margin: 0 5px 0 0;
     border-radius: 10px 10px 10px 10px;
-    padding: auto;
+    padding: 10px 10px 10px 10px;
     border: solid 2px rgb(0, 0, 0);
     color: inherit;
     background-color: rgb(255, 255, 255);
     font-size: 15px;
 }
 
-.preview{
+.preview {
     border: solid 2px rgb(0, 0, 0);
     width: auto;
     padding: auto;
     height: auto;
+    margin: 0;
 }
-
 
 #preview {
     display: flex;
     flex-flow: column;
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
-    margin: 10px 10px 10px 10px;
-    padding: auto;
+    margin: 0 0 0 15px;
+    padding: 10px 10px 10px 10px;
     font-size: 15px;
-    width: auto;
+    width: 94%;
     height: auto;
     border-radius: 10px 10px 10px 10px;
     text-align: left;
@@ -72,13 +68,82 @@ body {
 footer {
     display: flex;
     flex-flow: row;
-    text-align: center;
     align-items: center;
-    padding: 2px 39vw 2px 39vw;
+    padding: 2px auto 2px auto;
     height: 6vh;
-    margin: 5vh 1vw 1vh 1vw;
+    margin: 5vh 3vw 1vh 3vw;
     border: 2px solid rgb(0, 0, 0);
     border-radius: 5px 5px 5px 5px;
     background-color: rgb(255, 255, 255);
     font-size: 15px;
+    width: 93vw;
+}
+
+footer p {
+    text-align: center;
+    width: 100%;
+    padding: auto;
+    margin: auto;
+}
+
+@media(max-width:600px) {
+    body {
+        width: 100%;
+        height: auto;
+    }
+
+    .markdown-container {
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .editor {
+        display: flex;
+        flex-flow: column;
+        width: 97%;
+        height: auto;
+        font-size: 12px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #editor {
+        display: flex;
+        flex-flow: column;
+        width: 97%;
+        height: auto;
+        padding: 5px 5px 5px 5px;
+        margin: 0;
+        text-align: left;
+    }
+
+    .preview {
+        border: solid 2px rgb(0, 0, 0);
+        width: auto;
+        padding: 0;
+        height: auto;
+        margin: 0;
+    }
+
+    #preview {
+        display: flex;
+        flex-flow: column;
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
+        margin: 5px 0 0 0;
+        padding: 5px 5px 5px 5px;
+        font-size: 12px;
+        width: 97%;
+        height: auto;
+        border-radius: 10px 10px 10px 10px;
+        text-align: left;
+    }
+
+    footer{
+        width: 97%;
+        margin: 5px 0 0 0;
+        padding: 0;
+    }
 }
