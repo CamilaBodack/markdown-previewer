@@ -149,9 +149,9 @@ footer p {
         display: flex;
         flex-flow: row;
         width: 95%;
-        margin: 1vh 0.5vw 1vh 0.5vw;
+        margin: auto;
         height: 3vh;
-        font-size: 11px;
-        padding: auto;
+        font-size: 10px;
+        padding: auto 1px auto 1px;
     }
 }
