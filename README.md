@@ -1,6 +1,6 @@
 # Martini Markdown Previewer
 
-Tool to help markdown creation in desktop and mobile devices
+Tool to help markdown creation.
 
 ## Implementation
 
