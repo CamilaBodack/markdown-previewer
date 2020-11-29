@@ -95,7 +95,7 @@ footer p {
     .editor {
         display: flex;
         flex-flow: column;
-        width: 95%;
+        width: auto;
         height: auto;
         font-size: 10px;
         margin: 1vh 0.5vw 1vh 0.5vw;
@@ -105,7 +105,7 @@ footer p {
     #editor {
         display: flex;
         flex-flow: column;
-        width: 95%;
+        width: auto;
         height: auto;
         padding: auto;
         margin: 1vh 0.5vw 1vh 0.5vw;
@@ -128,7 +128,7 @@ footer p {
         margin: 1vh 0.5vw 1vh 0.5vw;
         padding: auto;
         font-size: 10px;
-        width: 95%;
+        width: auto;
         height: auto;
         border-radius: 10px 10px 10px 10px;
         text-align: left;
@@ -137,7 +137,7 @@ footer p {
     footer{
         display: flex;
         flex-flow: row;
-        width: 95%;
+        width: 100;
         margin: auto auto 2px auto;
         height: 3vh;
         font-size: 10px;
